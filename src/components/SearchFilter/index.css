@@ -1,0 +1,86 @@
+/* index.css */
+
+/* Style for the search filter background container */
+.search-filter-bg-container {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Style for the header */
+.header {
+  background-color: #d81f26;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Style for the search filter movies list container */
+.search-filter-movies-list-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style for the search filter ul container */
+.search-filter-ul-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+/* Style for each search filter li item */
+.search-filter-li-item {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+/* Style for the search filter poster */
+.search-poster {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the search heading container */
+.search-heading-container {
+  text-align: center;
+  margin: 50px 0;
+}
+
+/* Style for the search not found image */
+.search-not-found-image {
+  width: 200px;
+  height: 200px;
+}
+
+/* Style for the search not found heading */
+.search-not-found-heading {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+/* Style for the search filter initial no search */
+.search-filter-initial-no-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  text-align: center;
+}
+
+/* Style for the empty text */
+.empty-text {
+  font-size: 18px;
+  margin: 10px;
+}
+
+/* Style for the footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
